@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\hafeu\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+      "projectUniqueName": "D:\\Users\\hafeu\\Desktop\\Hafedh\\Personal-Repository\\4Twin4\\Semester 2\\.NET\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
       "projectName": "AM.ApplicationCore",
-      "projectPath": "D:\\Users\\hafeu\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+      "projectPath": "D:\\Users\\hafeu\\Desktop\\Hafedh\\Personal-Repository\\4Twin4\\Semester 2\\.NET\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
       "packagesPath": "C:\\Users\\hafeu\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\hafeu\\Desktop\\AirportManagement\\AM.ApplicationCore\\obj\\",
+      "outputPath": "D:\\Users\\hafeu\\Desktop\\Hafedh\\Personal-Repository\\4Twin4\\Semester 2\\.NET\\AirportManagement\\AM.ApplicationCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
