@@ -14,5 +14,11 @@ namespace AM.ApplicationCore.Domain
         public DateTime BirthDate { get; set; }
         public string TelNumber { get; set; }
         public string EmailAddress { get; set; }
+        public ICollection<Flight> Flights { get; set; }
+
+        public virtual void PassengerType()
+        {
+            Console.WriteLine("I am a passenger");
+        }
     }
 }

@@ -11,5 +11,11 @@ namespace AM.ApplicationCore.Domain
         public string Function { get; set; }
         public DateTime EmployementDate { get; set; }
         public float Salary { get; set; }
+
+        public override void PassengerType()
+        {
+            base.PassengerType();
+            Console.WriteLine("I am a Staff");
+        }
     }
 }
