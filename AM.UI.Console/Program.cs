@@ -1,22 +1,40 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using AM.ApplicationCore.Domain;
+using AM.ApplicationCore.Services;
 
-Console.WriteLine("Hello, World!");
 Plane plane1 = new Plane();
 plane1.Capacity = 200;
 plane1.ManufactureDate = new DateTime(2025,01,31);
 plane1.PlaneType = PlaneType.Boeing;
-
 //Object Initialisar
 Plane plane2 = new Plane { Capacity = 100, PlaneType = PlaneType.Airbus, ManufactureDate = DateTime.Now };
-
 Console.WriteLine(plane2);
+
 Console.WriteLine("************* PassengerType **********");
-Passenger p1 = new Passenger();
+Passenger p1 = new Passenger 
+{ 
+    FirstName = "Hafedh",
+    LastName = "Jendoubi",
+    BirthDate = new DateTime(2002,11,22),
+    TelNumber = "+21652896806",
+    EmailAddress = "hafedh.jendoubi@esprit.tn"
+};
 Staff s1 = new Staff();
 Traveller t1 = new Traveller();
 p1.PassengerType();
 s1.PassengerType();
 t1.PassengerType();
 
-//Question 10
+Console.WriteLine("************* CheckProfile **********");
+Console.WriteLine(p1.CheckProfile("Hafedh", "Jendoubi"));
+Console.WriteLine(p1.CheckProfile("Hafedh", "Jendoubi", "nour@esprit.tn"));
+
+Console.WriteLine("************* GetFlightDates **********");
+FlightMethods flightMethods = new FlightMethods();
+flightMethods.Flights = TestData.listFlights;
+foreach(DateTime d in flightMethods.getFlightDates("Paris"))
+    Console.WriteLine(d);
+
+Console.WriteLine("************* GetFlights **********");
+flightMethods.GetFlights("Destination", "Madrid");
+flightMethods.GetFlights("EstimatedDuration", "105");

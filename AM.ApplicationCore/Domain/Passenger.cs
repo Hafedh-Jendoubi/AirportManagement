@@ -20,5 +20,18 @@ namespace AM.ApplicationCore.Domain
         {
             Console.WriteLine("I am a passenger");
         }
+
+        //public Boolean CheckProfile(string first, string last)
+        //{
+        //    return (FirstName == first && LastName == last);
+        //}
+
+        //This function allows us to merge the two functions in one using the nullabale attribute
+        public Boolean CheckProfile(string first, string last, string email=null)
+        {
+            if(email == null) 
+                return (FirstName == first && LastName == last && EmailAddress == email);
+            return (FirstName == first && LastName == last);
+        }
     }
 }

@@ -16,5 +16,10 @@ namespace AM.ApplicationCore.Domain
         public string Departure { get; set; }
         public Plane Plane { get; set; }
         public ICollection<Passenger> Passengers { get; set; }
+
+        public override string ToString()
+        {
+            return "Flight Date: " + FlightDate +  " - Destination: " + Destination + " - Duration: " + EstimatedDuration;
+        }
     }
 }
