@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\Users\\hafeu\\Desktop\\Hafedh\\Personal-Repository\\4Twin4\\Semester 2\\.NET\\AirportManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48E296A8-3549-45E1-B4DE-78C0276EB211}|AM.ApplicationCore\\AM.ApplicationCore.csproj|d:\\users\\hafeu\\desktop\\hafedh\\personal-repository\\4twin4\\semester 2\\.net\\airportmanagement\\am.applicationcore\\domain\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48E296A8-3549-45E1-B4DE-78C0276EB211}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\domain\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EC86BA90-337F-40E3-8D8E-37B2609EC743}|AM.UI.Console\\AM.UI.Console.csproj|d:\\users\\hafeu\\desktop\\hafedh\\personal-repository\\4twin4\\semester 2\\.net\\airportmanagement\\am.ui.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC86BA90-337F-40E3-8D8E-37B2609EC743}|AM.UI.Console\\AM.UI.Console.csproj|solutionrelative:am.ui.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48E296A8-3549-45E1-B4DE-78C0276EB211}|AM.ApplicationCore\\AM.ApplicationCore.csproj|d:\\users\\hafeu\\desktop\\hafedh\\personal-repository\\4twin4\\semester 2\\.net\\airportmanagement\\am.applicationcore\\services\\flightmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48E296A8-3549-45E1-B4DE-78C0276EB211}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\services\\flightmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{48E296A8-3549-45E1-B4DE-78C0276EB211}|AM.ApplicationCore\\AM.ApplicationCore.csproj|d:\\users\\hafeu\\desktop\\hafedh\\personal-repository\\4twin4\\semester 2\\.net\\airportmanagement\\am.applicationcore\\interfaces\\iflightmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48E296A8-3549-45E1-B4DE-78C0276EB211}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\interfaces\\iflightmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E296A8-3549-45E1-B4DE-78C0276EB211}|AM.ApplicationCore\\AM.ApplicationCore.csproj|d:\\users\\hafeu\\desktop\\hafedh\\personal-repository\\4twin4\\semester 2\\.net\\airportmanagement\\am.applicationcore\\services\\flightmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E296A8-3549-45E1-B4DE-78C0276EB211}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\services\\flightmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Users\\hafeu\\Desktop\\Hafedh\\Personal-Repository\\4Twin4\\Semester 2\\.NET\\AirportManagement\\AM.UI.Console\\Program.cs",
               "RelativeDocumentMoniker": "AM.UI.Console\\Program.cs",
-              "ToolTip": "D:\\Users\\hafeu\\Desktop\\Hafedh\\Personal-Repository\\4Twin4\\Semester 2\\.NET\\AirportManagement\\AM.UI.Console\\Program.cs",
-              "RelativeToolTip": "AM.UI.Console\\Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAACcAAAAyAAAAAAAAAA==",
+              "ToolTip": "D:\\Users\\hafeu\\Desktop\\Hafedh\\Personal-Repository\\4Twin4\\Semester 2\\.NET\\AirportManagement\\AM.UI.Console\\Program.cs*",
+              "RelativeToolTip": "AM.UI.Console\\Program.cs*",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T21:07:17.287Z",
               "IsPinned": true,
@@ -44,26 +40,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Flight.cs",
-              "DocumentMoniker": "D:\\Users\\hafeu\\Desktop\\Hafedh\\Personal-Repository\\4Twin4\\Semester 2\\.NET\\AirportManagement\\AM.ApplicationCore\\Domain\\Flight.cs",
-              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Flight.cs",
-              "ToolTip": "D:\\Users\\hafeu\\Desktop\\Hafedh\\Personal-Repository\\4Twin4\\Semester 2\\.NET\\AirportManagement\\AM.ApplicationCore\\Domain\\Flight.cs",
-              "RelativeToolTip": "AM.ApplicationCore\\Domain\\Flight.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T15:30:11.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "IFlightMethods.cs",
               "DocumentMoniker": "D:\\Users\\hafeu\\Desktop\\Hafedh\\Personal-Repository\\4Twin4\\Semester 2\\.NET\\AirportManagement\\AM.ApplicationCore\\Interfaces\\IFlightMethods.cs",
               "RelativeDocumentMoniker": "AM.ApplicationCore\\Interfaces\\IFlightMethods.cs",
               "ToolTip": "D:\\Users\\hafeu\\Desktop\\Hafedh\\Personal-Repository\\4Twin4\\Semester 2\\.NET\\AirportManagement\\AM.ApplicationCore\\Interfaces\\IFlightMethods.cs",
               "RelativeToolTip": "AM.ApplicationCore\\Interfaces\\IFlightMethods.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T13:43:25.546Z",
               "EditorCaption": ""
@@ -76,7 +59,7 @@
               "RelativeDocumentMoniker": "AM.ApplicationCore\\Services\\FlightMethods.cs",
               "ToolTip": "D:\\Users\\hafeu\\Desktop\\Hafedh\\Personal-Repository\\4Twin4\\Semester 2\\.NET\\AirportManagement\\AM.ApplicationCore\\Services\\FlightMethods.cs",
               "RelativeToolTip": "AM.ApplicationCore\\Services\\FlightMethods.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAwwDwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAMwHkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T13:44:17.567Z",
               "EditorCaption": ""

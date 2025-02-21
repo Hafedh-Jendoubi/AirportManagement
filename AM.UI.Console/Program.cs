@@ -38,3 +38,25 @@ foreach(DateTime d in flightMethods.getFlightDates("Paris"))
 Console.WriteLine("************* GetFlights **********");
 flightMethods.GetFlights("Destination", "Madrid");
 flightMethods.GetFlights("EstimatedDuration", "105");
+
+Console.WriteLine("************* ShowFlightDetails **********");
+flightMethods.ShowFlightDetails(TestData.BoingPlane);
+
+Console.WriteLine("************* ProgrammedFlightNumber **********");
+Console.WriteLine(flightMethods.ProgrammedFlightNumber(new DateTime(2021, 12, 31)));
+
+Console.WriteLine("************* DurationAverage **********");
+Console.WriteLine(flightMethods.DurationAverage("Paris"));
+
+Console.WriteLine("************* OrderedDurationFlights **********");
+foreach (Flight f in flightMethods.OrderedDurationFlights())
+    Console.WriteLine(f.Destination + " " + f.EstimatedDuration);
+
+/*
+Console.WriteLine("************* SeniorTravellers **********");
+foreach (Traveller t in flightMethods.SeniorTravellers(TestData.flight1))
+    Console.WriteLine(t.FirstName + " " + t.BirthDate);
+*/
+
+Console.WriteLine("************* DestionationGroupedFlights **********");
+flightMethods.DestionationGroupedFlights();

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AM.ApplicationCore.Domain;
 
 namespace AM.ApplicationCore.Interfaces
 {
@@ -10,5 +11,11 @@ namespace AM.ApplicationCore.Interfaces
     {
         List<DateTime> getFlightDates(string destination);
         void GetFlights(string filterType, string filterValue);
+        void ShowFlightDetails(Plane plane);
+        int ProgrammedFlightNumber(DateTime startDate);
+        double DurationAverage(string destination);
+        IEnumerable<Flight> OrderedDurationFlights();
+        IEnumerable<Traveller> SeniorTravellers(Flight f);
+        IEnumerable<IGrouping<string, Flight>> DestionationGroupedFlights();
     }
 }
