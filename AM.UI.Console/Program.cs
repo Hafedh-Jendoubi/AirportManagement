@@ -13,7 +13,7 @@ Console.WriteLine(plane2);
 Console.WriteLine("************* PassengerType **********");
 Passenger p1 = new Passenger 
 { 
-    FirstName = "Hafedh",
+    FirstName = "HaFedh",
     LastName = "Jendoubi",
     BirthDate = new DateTime(2002,11,22),
     TelNumber = "+21652896806",
@@ -60,3 +60,6 @@ foreach (Traveller t in flightMethods.SeniorTravellers(TestData.flight1))
 
 Console.WriteLine("************* DestionationGroupedFlights **********");
 flightMethods.DestionationGroupedFlights();
+
+Console.WriteLine("************* UpperFullName **********");
+p1.UpperFullName();

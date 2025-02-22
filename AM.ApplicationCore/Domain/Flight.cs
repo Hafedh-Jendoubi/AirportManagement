@@ -9,6 +9,7 @@ namespace AM.ApplicationCore.Domain
     public class Flight
     {
         public int FlightId { get; set; }
+        public string AirlineLogo { get; set; }
         public DateTime FlightDate { get; set; }
         public int EstimatedDuration { get; set; }
         public DateTime EffectiveArrival { get; set; }

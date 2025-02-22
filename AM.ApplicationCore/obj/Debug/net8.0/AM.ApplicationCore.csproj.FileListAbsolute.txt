@@ -10,3 +10,4 @@ D:\Users\hafeu\Desktop\Hafedh\Personal-Repository\4Twin4\Semester 2\.NET\Airport
 D:\Users\hafeu\Desktop\Hafedh\Personal-Repository\4Twin4\Semester 2\.NET\AirportManagement\AM.ApplicationCore\obj\Debug\net8.0\refint\AM.ApplicationCore.dll
 D:\Users\hafeu\Desktop\Hafedh\Personal-Repository\4Twin4\Semester 2\.NET\AirportManagement\AM.ApplicationCore\obj\Debug\net8.0\AM.ApplicationCore.pdb
 D:\Users\hafeu\Desktop\Hafedh\Personal-Repository\4Twin4\Semester 2\.NET\AirportManagement\AM.ApplicationCore\obj\Debug\net8.0\ref\AM.ApplicationCore.dll
+D:\Users\hafeu\Desktop\Hafedh\Personal-Repository\4Twin4\Semester 2\.NET\AirportManagement\AM.ApplicationCore\obj\Debug\net8.0\AM.ApplicationCore.csproj.AssemblyReference.cache
